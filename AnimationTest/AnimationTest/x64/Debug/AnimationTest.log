@@ -1,3 +1,32 @@
-﻿  AnimatedModel.cpp
-     Creating library C:\Users\steve\Desktop\godMode\AnimationTest\x64\Debug\AnimationTest.lib and object C:\Users\steve\Desktop\godMode\AnimationTest\x64\Debug\AnimationTest.exp
-  AnimationTest.vcxproj -> C:\Users\steve\Desktop\godMode\AnimationTest\x64\Debug\AnimationTest.exe
+﻿C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(7,9-61): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(8,9-60): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(27,20-39): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(27,45-62): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(27,45-80): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedPixelShader.hlsl(27,19-167): warning X3206: implicit truncation of vector type
+  
+  compilation header save succeeded; see C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\AnimatedPixelShader.csh
+  compilation object save succeeded; see C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\AnimatedPixelShader.cso
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedVertexShader.hlsl(31,36-69): warning X3206: implicit truncation of vector type
+C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\Animation\AnimatedVertexShader.hlsl(36,28-62): warning X3206: implicit truncation of vector type
+  
+  compilation header save succeeded; see C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\AnimatedVertexShader.csh
+  compilation object save succeeded; see C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\AnimationTest\AnimatedVertexShader.cso
+  ThirdPersonCamera.cpp
+  Mouse.cpp
+  main.cpp
+  Keyboard.cpp
+  InputManager.cpp
+  GameTime.cpp
+  GameClock.cpp
+  Exception.cpp
+  OBJConverter.cpp
+  FBXConverter.cpp
+  BaseGame.cpp
+c:\users\steve\desktop\fbxobjfileconverterdisplayer\animationtest\animationtest\basegame.cpp(305): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  AssimpContainers.cpp
+c:\users\steve\desktop\fbxobjfileconverterdisplayer\animationtest\animationtest\animation\assimpcontainers.cpp(394): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+  AnimatedModel.cpp
+  Generating Code...
+  LINK : C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\x64\Debug\AnimationTest.exe not found or not built by the last incremental link; performing full link
+LINK : fatal error LNK1104: cannot open file 'DirectXTK.lib'
