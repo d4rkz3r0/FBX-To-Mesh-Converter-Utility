@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model Data">
+      <UniqueIdentifier>{144edcfc-58a9-43ed-b28b-6ef90ee6b806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation Containers">
+      <UniqueIdentifier>{ca7c5fda-54aa-455d-baf0-06c979a968da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{dad55db5-faa5-4965-bfb4-b85044d8ed62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{d6ccf7c8-44bd-40f1-a8e7-eea8e4bcb2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLSL">
+      <UniqueIdentifier>{35dc2d81-41dd-4dd5-bb8b-e3b041d2796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{f09fed5c-e08e-46f2-bee1-73f9077eec20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Converters">
+      <UniqueIdentifier>{0e68dacf-2f88-475a-a9fe-495540320cfa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AssimpContainers.cpp">
+      <Filter>Source Files\Animation Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimatedModel.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPersonCamera.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Converters\FBXConverter.cpp">
+      <Filter>Source Files\Converters</Filter>
+    </ClCompile>
+    <ClCompile Include="Converters\OBJConverter.cpp">
+      <Filter>Source Files\Converters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseGame.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AssimpContainers.h">
+      <Filter>Source Files\Animation Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\ImporterHeaders.h">
+      <Filter>Source Files\Animation Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimatedModel.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\CBufferLayout.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\ConstantBuffer.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\IndexBufferWrapper.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\MiscModelStructs.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\VertexBufferWrapper.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\VertexLibrary.h">
+      <Filter>Source Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonCamera.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Converters\FBXConverter.h">
+      <Filter>Source Files\Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="Converters\OBJConverter.h">
+      <Filter>Source Files\Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="Converters\Vertex.h">
+      <Filter>Source Files\Converters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Animation\AnimatedPixelShader.hlsl">
+      <Filter>Source Files\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Animation\AnimatedVertexShader.hlsl">
+      <Filter>Source Files\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

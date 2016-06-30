@@ -1,0 +1,17 @@
+#pragma once
+#include <Assimp/cimport.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/ai_assert.h>
+#include <Assimp/cfileio.h>
+#include <Assimp/postprocess.h>
+#include <Assimp/scene.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/IOStream.hpp>
+#include <Assimp/LogStream.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/cimport.h>
+#include <Assimp/LogStream.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/Importer.hpp>
+#include <Assimp/importerdesc.h>
+#include <Assimp/scene.h>
