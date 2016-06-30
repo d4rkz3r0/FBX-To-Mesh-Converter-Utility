@@ -1,1 +1,2 @@
-﻿LINK : fatal error LNK1104: cannot open file 'assimp.lib'
+﻿     Creating library C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\x64\Debug\AnimationTest.lib and object C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\x64\Debug\AnimationTest.exp
+  AnimationTest.vcxproj -> C:\Users\steve\Desktop\FBXOBJFileConverterDisplayer\AnimationTest\x64\Debug\AnimationTest.exe
